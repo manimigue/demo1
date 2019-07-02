@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.8ba9007c.chunk.css",
-    "main.js": "/static/js/main.a3e7abf4.chunk.js",
-    "main.js.map": "/static/js/main.a3e7abf4.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.7f140066.chunk.js": "/static/js/2.7f140066.chunk.js",
-    "static/js/2.7f140066.chunk.js.map": "/static/js/2.7f140066.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.5545aa12858612832fa048cecdbc6a48.js": "/precache-manifest.5545aa12858612832fa048cecdbc6a48.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.8ba9007c.chunk.css.map": "/static/css/main.8ba9007c.chunk.css.map",
-    "static/media/building1.jpg": "/static/media/building1.a18c072b.jpg",
-    "static/media/room1.jpg": "/static/media/room1.ef3c766a.jpg",
-    "static/media/room2.jpg": "/static/media/room2.76402873.jpg",
-    "static/media/room3.jpg": "/static/media/room3.bbd6f9cf.jpg",
-    "static/media/room4.jpg": "/static/media/room4.128bf962.jpg"
+    "main.css": "/demo1_building/static/css/main.8ba9007c.chunk.css",
+    "main.js": "/demo1_building/static/js/main.b7fcd07c.chunk.js",
+    "main.js.map": "/demo1_building/static/js/main.b7fcd07c.chunk.js.map",
+    "runtime~main.js": "/demo1_building/static/js/runtime~main.d9824d02.js",
+    "runtime~main.js.map": "/demo1_building/static/js/runtime~main.d9824d02.js.map",
+    "static/js/2.7f140066.chunk.js": "/demo1_building/static/js/2.7f140066.chunk.js",
+    "static/js/2.7f140066.chunk.js.map": "/demo1_building/static/js/2.7f140066.chunk.js.map",
+    "index.html": "/demo1_building/index.html",
+    "precache-manifest.7dd320a1770a31facd9ba3864fbc9787.js": "/demo1_building/precache-manifest.7dd320a1770a31facd9ba3864fbc9787.js",
+    "service-worker.js": "/demo1_building/service-worker.js",
+    "static/css/main.8ba9007c.chunk.css.map": "/demo1_building/static/css/main.8ba9007c.chunk.css.map",
+    "static/media/building1.jpg": "/demo1_building/static/media/building1.a18c072b.jpg",
+    "static/media/room1.jpg": "/demo1_building/static/media/room1.ef3c766a.jpg",
+    "static/media/room2.jpg": "/demo1_building/static/media/room2.76402873.jpg",
+    "static/media/room3.jpg": "/demo1_building/static/media/room3.bbd6f9cf.jpg",
+    "static/media/room4.jpg": "/demo1_building/static/media/room4.128bf962.jpg"
   }
 }
