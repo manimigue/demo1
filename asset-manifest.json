@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/demo1_building/static/css/main.631562aa.chunk.css",
-    "main.js": "/demo1_building/static/js/main.62453363.chunk.js",
-    "main.js.map": "/demo1_building/static/js/main.62453363.chunk.js.map",
-    "runtime~main.js": "/demo1_building/static/js/runtime~main.d9824d02.js",
-    "runtime~main.js.map": "/demo1_building/static/js/runtime~main.d9824d02.js.map",
-    "static/js/2.7f140066.chunk.js": "/demo1_building/static/js/2.7f140066.chunk.js",
-    "static/js/2.7f140066.chunk.js.map": "/demo1_building/static/js/2.7f140066.chunk.js.map",
-    "index.html": "/demo1_building/index.html",
-    "precache-manifest.8995ce1fcce1c9bcf8eca8ffa46cc8a5.js": "/demo1_building/precache-manifest.8995ce1fcce1c9bcf8eca8ffa46cc8a5.js",
-    "service-worker.js": "/demo1_building/service-worker.js",
-    "static/css/main.631562aa.chunk.css.map": "/demo1_building/static/css/main.631562aa.chunk.css.map",
-    "static/media/building1.jpg": "/demo1_building/static/media/building1.a18c072b.jpg",
-    "static/media/room1.jpg": "/demo1_building/static/media/room1.ef3c766a.jpg",
-    "static/media/room2.jpg": "/demo1_building/static/media/room2.76402873.jpg",
-    "static/media/room3.jpg": "/demo1_building/static/media/room3.bbd6f9cf.jpg",
-    "static/media/room4.jpg": "/demo1_building/static/media/room4.128bf962.jpg"
+    "main.css": "/demo1/static/css/main.631562aa.chunk.css",
+    "main.js": "/demo1/static/js/main.8030b965.chunk.js",
+    "main.js.map": "/demo1/static/js/main.8030b965.chunk.js.map",
+    "runtime~main.js": "/demo1/static/js/runtime~main.d9ccaf5e.js",
+    "runtime~main.js.map": "/demo1/static/js/runtime~main.d9ccaf5e.js.map",
+    "static/js/2.7f140066.chunk.js": "/demo1/static/js/2.7f140066.chunk.js",
+    "static/js/2.7f140066.chunk.js.map": "/demo1/static/js/2.7f140066.chunk.js.map",
+    "index.html": "/demo1/index.html",
+    "precache-manifest.fe6b20c6f4bec9b05be1f0e8f9203091.js": "/demo1/precache-manifest.fe6b20c6f4bec9b05be1f0e8f9203091.js",
+    "service-worker.js": "/demo1/service-worker.js",
+    "static/css/main.631562aa.chunk.css.map": "/demo1/static/css/main.631562aa.chunk.css.map",
+    "static/media/building1.jpg": "/demo1/static/media/building1.a18c072b.jpg",
+    "static/media/room1.jpg": "/demo1/static/media/room1.ef3c766a.jpg",
+    "static/media/room2.jpg": "/demo1/static/media/room2.76402873.jpg",
+    "static/media/room3.jpg": "/demo1/static/media/room3.bbd6f9cf.jpg",
+    "static/media/room4.jpg": "/demo1/static/media/room4.128bf962.jpg"
   }
 }
