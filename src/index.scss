@@ -1,0 +1,229 @@
+$break : 460px;
+$mid : 720px;
+$big : 900px;
+
+@mixin mediamin() {
+  @media only screen and (min-width: $break) {
+    @content;
+  }
+}
+
+@mixin mediamid() {
+  @media only screen and (min-width: $mid) {
+    @content;
+  }
+}
+
+@mixin mediabig() {
+  @media only screen and (min-width: $big) {
+    @content;
+  }
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+
+  .navbar {
+    transition: .3s ease;
+    .navbar-brand{
+      margin-right:0px;
+      height: 80px;
+    }
+
+    &.hide {
+      top: -100px;
+    }
+
+    @media only screen and (min-width:768px){
+      transition: none;
+      &.hide {
+        top: 0px;
+        transition: none;
+      }
+    }
+
+    @media only screen and (max-width:460px){
+      &.hide {
+        top: -150px;
+      }
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        line-height: 1.625rem;
+        color: rgba(0,0,0,.7) ;
+        transition: .3s ease !important;
+    }
+
+    .navbar-light .navbar-nav .nav-link :hover{
+        color: #000 ;
+    }
+  }
+
+  .main {
+    text-align: left;
+    header {
+      background: whitesmoke;/*背景色*/
+      border-top: 1px solid rgb(75, 63, 63);
+      margin-left: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-grow: 1 2;
+      @include mediamin(){
+        align-items: stretch;
+      }
+      .wr{
+        max-width: 35%;
+        max-height: 100%;
+        @include mediabig (){
+          max-width: 45%;
+        }
+        img {
+          max-width:100%;
+          max-height:90%;
+          margin-top: 10px;
+          margin-right: 5px;
+        }
+      }
+      .header-main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: stretch;
+        flex-grow: 1 2;
+        .top {
+          @include mediamin(){
+            display: flex;
+            justify-content: space-between;
+          }
+          @include mediabig (){
+            justify-content: flex-start;
+          }
+          .title{
+            margin: 10px;
+            h3{
+
+            }
+          }
+          .rate {
+            margin: 10px 0 0 20px;
+            @include mediamin(){
+              margin: 10px 25px 0 0;
+            }
+          }
+        }
+        .info {
+          font-size: 0.8em;
+          padding: 0.5em 1em;
+          color: #474747;
+          @include mediabig(){
+            display: flex;
+          }
+          p{
+            margin: 0;
+          }
+          div{
+            margin: 0 0 5px 5px;
+            width: 100%;
+          }
+        }
+      }
+    }
+    .contain {
+      @include mediamid(){
+        display: flex;
+        flex: 1 1;
+        justify-content: space-around;
+      }
+      .comments {
+        min-width: 50%;
+        h4 {
+          font-size: 1.5em;
+          margin: 10px 0;
+        }
+        p{
+          margin: 0;
+        }
+        .comment {
+          padding: 0.5em 1em;
+          margin: 1.5em 0;
+          color: #00BCD4;
+          background: #e4fcff;/*背景色*/
+          border-top: solid 6px #1dc1d6;
+          box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);
+          min-height: 150px;
+          .name {
+            text-align: right;
+          }
+        }
+        form {
+          margin: 10px;
+          min-height: 150px;
+          input,textarea{
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top : 10px;
+            margin-bottom : 30px;
+            padding : 18px;
+            font-size : 18px;
+            border : 1px solid #dee7ec;
+          }
+          textarea{
+            height: 150px;
+          }
+          .submit{
+            background-color : #dee7ec;
+            color : #889eab;
+            transition: .3s ease;
+            &:hover{
+              background-color : #b7d4e4;
+              color: rgb(136, 86, 223);
+              cursor: pointer;
+            }
+          }
+        }
+      }
+
+      .rooms{
+        h4 {
+          font-size: 1.5em;
+          margin: 10px 0;
+        }
+        table{
+          margin-top: 15px;
+          margin-left: 20px;
+          margin-right: 20px;
+          tbody{
+            tr{
+              height: 100px;
+
+              .img{
+                width: 150px;
+                img{
+                  display: block;
+                  width: 120px;
+                  margin-left: auto;
+                  margin-right: auto;
+                }
+
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
